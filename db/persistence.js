@@ -10,11 +10,11 @@ const UserModel = require('../model/User')
 const ProductModel = require('../model/Product')
 
 const sequelize = new Sequelize(
-    process.env.DB_NAME,
-    process.env.DB_USER,
-    process.env.DB_PASSWORD, {
-    dialect: process.env.DB_DIALECT,
-    host: process.env.DB_HOST,    
+    "umg",
+    "root",
+    "secret", {
+    dialect: "mysql",
+    host: "mysqldb",
     operatorsAliases: 0,
     pool: {
         max: 10,
