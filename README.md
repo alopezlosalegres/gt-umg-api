@@ -1,2 +1,2 @@
 # gt-umg-api
-Api de Proyecto Graduación
+Api para proyecto umg
