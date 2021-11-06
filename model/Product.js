@@ -14,6 +14,14 @@ module.exports = (sequelize, type) => {
                 type: type.STRING(255),
                 allowNull: false
             },
+            cantidad: {
+                type: type.INTEGER,
+                allowNull: false
+            },
+            imagenproducto: {
+                type: type.STRING(255),
+                allowNull: false
+            },           
             estado: {
                 type: type.CHAR(1),
                 allowNull: false,
